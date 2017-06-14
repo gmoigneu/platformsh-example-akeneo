@@ -3,10 +3,6 @@
 # Each route describes how an incoming URL is going
 # to be processed by Platform.sh.
 
-"http://magento.{default}/":
-    type: upstream
-    upstream: "magento:php"
-
-"http://akeneo.{default}/":
+"http://{default}/":
     type: upstream
     upstream: "akeneo:php"
